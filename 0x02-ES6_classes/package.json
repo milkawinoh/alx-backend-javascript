@@ -1,0 +1,24 @@
+{
+  "name": "0x02-es6_classes",
+  "version": "1.0.0",
+  "description": "classes project",
+  "main": "0-main.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node 0-main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-typescript": "^7.18.0",
+    "@babel/preset-react": "^7.18.0",
+    "babel-jest": "^27.4.5",
+    "jest": "^27.4.5",
+    "eslint": "^8.7.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-react": "^7.27.1"
+  }
+}
