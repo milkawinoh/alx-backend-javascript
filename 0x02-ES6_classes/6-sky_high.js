@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/extensions
 import Building from './5-building.js';
 
 class SkyHighBuilding extends Building {
