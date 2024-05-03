@@ -1,9 +1,3 @@
-/* eslint-disable no-underscore-dangle */
-// eslint-disable-next-line no-underscore-dangle
-const _brand = Symbol('brand');
-const _motor = Symbol('motor');
-const _color = Symbol('color');
-
 export default class Car {
   constructor(brand, motor, color) {
     this._brand = brand;
@@ -12,10 +6,10 @@ export default class Car {
   }
 
   static get [Symbol.species]() {
-    return this;
+    return this.prototype.constructor;
   }
 
   cloneCar() {
-    return new Car(this[_brand], this[_motor], this[_color]);
+    return new (this.constructor[Symbol.species])();
   }
 }

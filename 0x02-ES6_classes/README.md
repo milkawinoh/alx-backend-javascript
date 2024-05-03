@@ -1,59 +1,24 @@
-ALXSE : https://intranet.alxswe.com/projects/1224#task-11563
-ES6 Basics
-This project focuses on understanding and implementing ES6 features in JavaScript. It is part of the short specializations curriculum.
+# Resources
+Read or watch:
 
-Concepts Covered
-Modern Javascript
-Software Linter
-Learning Objectives
-By the end of this project, participants should be able to explain:
+- Classes
+- Metaprogramming
 
-What ES6 is and its new features.
-Differences between constants and variables.
-Block-scoped variables.
-Arrow functions and default function parameters.
-Usage of rest and spread function parameters.
-String templating, object creation, and properties in ES6.
-Iterators and for-of loops.
-Requirements
-All files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x.
-Allowed editors: vi, vim, emacs, Visual Studio Code.
-All files should end with a new line.
-A README.md file is mandatory.
-Your code should use the js extension and will be tested using Jest and ESLint.
-Setup Instructions
-Install NodeJS 12.11.x: Run the following commands in your home directory:
+# Learning Objectives
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
-sudo bash nodesource_setup.sh
-sudo apt install nodejs -y
-Install Jest, Babel, and ESLint: In your project directory, use the supplied package.json and run npm install.
+- How to define a Class
+- How to add methods to a class
+- Why and how to add a static method to a class
+- How to extend a class from another
+- Metaprogramming and symbols
 
-Configuration Files: Add package.json, babel.config.js, and .eslintrc.js to your project directory.
-
-Run npm install: Ensure all project dependencies are installed.
-
-Tasks
-0. Const or let?
-Modify taskFirst and taskNext functions to use const and let.
-
-1. Block Scope
-Update taskBlock to prevent variable overwrites inside the conditional block.
-
-2. Arrow functions
-Convert a standard function to use ES6’s arrow syntax.
-
-...
-
-Resources
-ECMAScript 6 - ECMAScript 2015
-Statements and declarations
-Arrow functions
-Default parameters
-Rest parameter
-Javascript ES6 — Iterables and Iterators
-Final Notes
-Don’t forget to run npm install from your project folder to install all necessary dependencies.
-
-© 2024 ALX. All rights reserved.
-
+# Requirements
+- All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
+- Allowed editors: vi, vim, emacs, Visual Studio Code
+- All your files should end with a new line
+- A README.md file, at the root of the folder of the project, is mandatory
+- Your code should use the js extension
+- Your code will be tested using Jest and the command npm run test
+- Your code will be verified against lint using ESLint
+- Your code needs to pass all the tests and lint. You can verify the entire project running npm run full-test
